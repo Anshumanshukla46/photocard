@@ -1,0 +1,121 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: auto;
+    margin-bottom: -35rem;
+    margin-left: -18.55rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+body {
+    box-sizing: border-box;
+    margin: 5%;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    /* width: 100%; */
+    background-size: calc(100px, 100px, 100px);
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+main {
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-size: contain contain;
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+
+    /* border-radius: 10px; */
+}
+
+#inner {
+    /* border: 2px solid red; */
+    height: 320px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#bcgimg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+#profile {
+    border-radius: 50%;
+    margin-top: -51px;
+    margin-left: 100px;
+}
+
+#name {
+    /* display: inline-block; */
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 28%;
+    /* margin-top: 15%; */
+}
+
+#age {
+    margin-left: 6px;
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#location {
+    margin-left: 40%;
+    margin-top: -10px;
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    color: hsl(0, 0%, 59%);
+    margin: 2px;
+}
+
+/* th,
+td {
+    border: 2px solid black;
+    margin: 40px;
+}
+
+#header {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+
+} */
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    /* margin: auto; */
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: -10px;
+}
+
+#one {
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    font-weight: 400;
+}
